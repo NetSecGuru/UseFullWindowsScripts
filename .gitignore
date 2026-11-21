@@ -1,0 +1,47 @@
+# Secrets, Credentials & Environment Files
+.env
+.env.*
+!.env.example
+config.ini
+users.json
+sessions.json
+audit.log
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+tls/
+certs/
+secrets/
+
+# Databases, Live Data & Backups
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+backups/
+data/
+raw/
+uploads/
+
+# Dependencies & Build Outputs
+node_modules/
+dist/
+build/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.vscode/
+.idea/
